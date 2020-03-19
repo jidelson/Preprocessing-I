@@ -91,9 +91,10 @@ color: @main-color;
 
 @media( max-width: 500px ) {
 	
-		margin-left: 30%;
+		margin-left: 40%;
 		color:red;
-	
+	font-size: 16px;
+	word-spacing: 10px;
 	} // this closes @media 
 
 } // this closes nav
@@ -111,10 +112,16 @@ background-color: lightgrey;
 padding-left:2%;
 
 
+
 h1 {
 font-size: 70px;
 letter-spacing: 5px;
 font-family: @myName-font;
+
+@media(max-width:500px) {
+font-size: 40px;
+	letter-spacing: 1px;
+}
 } //this closes h1
 
 img {
@@ -205,6 +212,7 @@ li {
 
 .containerTwo {
 	margin-bottom: 10%;
+
 	
 	
 	h3 {
@@ -219,6 +227,10 @@ padding-bottom: 1%;
 	font-size: 25px;
 	padding: 1% 1%;
 	font-weight: bold;
+
+	@media(max-width:500px) {
+		font-size: 20px;
+	}
 } // this closes .yrs
 
 .three {
@@ -226,12 +238,17 @@ padding-bottom: 1%;
 	border-top: 2px solid lightgrey;
 	padding: 1% 1% 1% 4%;
 	background-color: grey;
+	@media (max-width:500px){
+		font-size:12px;
+	}
 } // this closes .three
 
 .one {
 	.spaceBetween();
 	border-top: 2px solid lightgrey;
 	padding: 1% 1% 1% 4%;
+	@media (max-width:500px){
+		font-size:12px;}
 } // this closes .one
 
 .oneOne {
@@ -240,6 +257,8 @@ padding-bottom: 1%;
 	border-bottom: 2px solid lightgrey;
 	padding: 1% 1% 1% 4%;
 	background-color: grey;
+	@media (max-width:500px){
+		font-size:12px;}
 } // this closes .oneOne
 
 } // this closes .containerTwo

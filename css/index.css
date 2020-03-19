@@ -147,8 +147,10 @@ nav {
 }
 @media (max-width: 500px) {
   nav {
-    margin-left: 30%;
+    margin-left: 40%;
     color: red;
+    font-size: 16px;
+    word-spacing: 10px;
   }
 }
 header {
@@ -159,6 +161,12 @@ header h1 {
   font-size: 70px;
   letter-spacing: 5px;
   font-family: 'Merriweather', sans-serif;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
 }
 header img {
   padding-top: 2%;
@@ -233,6 +241,11 @@ header button {
   padding: 1% 1%;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  .containerTwo .yrs {
+    font-size: 20px;
+  }
+}
 .containerTwo .three {
   display: flex;
   justify-content: space-between;
@@ -242,6 +255,11 @@ header button {
   padding: 1% 1% 1% 4%;
   background-color: grey;
 }
+@media (max-width: 500px) {
+  .containerTwo .three {
+    font-size: 12px;
+  }
+}
 .containerTwo .one {
   display: flex;
   justify-content: space-between;
@@ -249,6 +267,11 @@ header button {
   flex-direction: row;
   border-top: 2px solid lightgrey;
   padding: 1% 1% 1% 4%;
+}
+@media (max-width: 500px) {
+  .containerTwo .one {
+    font-size: 12px;
+  }
 }
 .containerTwo .oneOne {
   display: flex;
@@ -259,6 +282,11 @@ header button {
   border-bottom: 2px solid lightgrey;
   padding: 1% 1% 1% 4%;
   background-color: grey;
+}
+@media (max-width: 500px) {
+  .containerTwo .oneOne {
+    font-size: 12px;
+  }
 }
 footer {
   text-align: center;
