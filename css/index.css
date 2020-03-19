@@ -1,1 +1,266 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 1%;
+  font-family: 'Bellota Text', cursive;
+}
+nav {
+  word-spacing: 40px;
+  margin-left: 68%;
+  font-size: 20px;
+  padding-bottom: 3%;
+  color: #00008B;
+}
+@media (max-width: 500px) {
+  nav {
+    margin-left: 30%;
+    color: red;
+  }
+}
+header {
+  background-color: lightgrey;
+  padding-left: 2%;
+}
+header h1 {
+  font-size: 70px;
+  letter-spacing: 5px;
+  font-family: 'Merriweather', sans-serif;
+}
+header img {
+  padding-top: 2%;
+  width: 23%;
+}
+header h3 {
+  font-size: 25px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2%;
+  margin-right: 20%;
+}
+header p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 20px;
+}
+header button {
+  padding: 1% 2%;
+  background-color: grey;
+  color: #00008B;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 6%;
+}
+.containerOne {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.containerOne .listen {
+  width: 50%;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+.containerOne h2 {
+  font-size: 45px;
+  padding-bottom: 10%;
+}
+.containerOne .pOne {
+  font-size: 18px;
+  line-height: 25px;
+}
+.containerOne .stuff {
+  width: 50%;
+  padding: 3% 0% 3% 3%;
+}
+.containerOne h3 {
+  font-size: 40px;
+  padding-bottom: 3%;
+}
+.containerOne li {
+  font-size: 18px;
+  line-height: 25px;
+  border: 1px solid lightgrey;
+  padding: 2%;
+}
+.containerTwo {
+  margin-bottom: 10%;
+}
+.containerTwo h3 {
+  font-size: 40px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 1%;
+}
+.containerTwo .yrs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 2px solid lightgrey;
+  font-size: 25px;
+  padding: 1% 1%;
+  font-weight: bold;
+}
+.containerTwo .three {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 2px solid lightgrey;
+  padding: 1% 1% 1% 4%;
+  background-color: grey;
+}
+.containerTwo .one {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 2px solid lightgrey;
+  padding: 1% 1% 1% 4%;
+}
+.containerTwo .oneOne {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding: 1% 1% 1% 4%;
+  background-color: grey;
+}
+footer {
+  text-align: center;
+  margin-bottom: 1%;
+}
